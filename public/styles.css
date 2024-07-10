@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-block, .admin-block, .error-div {
+    margin-top: 10px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 0 1px #bbb;
+    width: 50%;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.user-block {
+    background-color: rebeccapurple;
+}
+
+.admin-block {
+    background-color: black;
+}
+
+.error-div {
+    background-color: orangered;;
+}
