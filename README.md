@@ -7,6 +7,10 @@ This is my implementation of the exercise posted here: https://www.youtube.com/w
 
 I haven't done OO for a while, and never in TypeScript so feedback and PRs  would be appreciated!
 
+# Acknowledgements
+
+Thank you, ILLAHI BUX JAGIRANI for the amazing exercises and learning videos you created!
+
 # Some Instructions
 
 This repo has a package.json file so be sure to install the dependencies. 
