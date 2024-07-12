@@ -23,7 +23,6 @@ export class GreetingBlockBase {
 
     // Creates and returns the div with the user name and greeting.
     private makeDiv():HTMLDivElement {
-        // let adminBlock = new GreetingBlockAdmin(this.#name);
         let div:HTMLDivElement = document.createElement("div");
         div.classList.add(this.#cssClass);
         div.append(this.makeGreeting())
