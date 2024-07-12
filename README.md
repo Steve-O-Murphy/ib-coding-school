@@ -7,8 +7,12 @@ This is my implementation of the exercise posted here: https://www.youtube.com/w
 
 I haven't done OO for a while, and never in TypeScript so feedback and PRs  would be appreciated!
 
+# Some Instructions
 
+This repo has a package.json file so be sure to install the dependencies. 
 
+The project uses Snowpack as its build tool so create the app:
+npx create-snowpack-app . --template @snowpack/app-template-blank-typescript --force
 
 # New Project
 
