@@ -1,3 +1,15 @@
+# About
+
+This is my implementation of the exercise posted here: https://www.youtube.com/watch?v=bNGzDA9LSAg&list=PL-XnT4KCow_-5IfZRZG5BBVPTEnMiqxIq&index=16. Instead of creating another console application I decided it would be fun to do a web application that includes some classes to represent users/admins and functionality to create greetings. If you happened upon this application while browsing the web, then I would appreciate your feedback on my implementation of users and admins in:
+* GreetingBlockBase.ts
+* GBAdmin.ts
+* GBUser.ts
+
+I haven't done OO for a while, and never in TypeScript so feedback and PRs  would be appreciated!
+
+
+
+
 # New Project
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).

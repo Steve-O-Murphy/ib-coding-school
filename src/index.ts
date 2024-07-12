@@ -3,6 +3,9 @@ import { GBAdmin } from "./ex_30/GBAdmin";
 
   const content = document.querySelector<HTMLDivElement>("#content")!
   main();
+
+  // Driver function. Given a list of users, creates a greeting for each. A user called "Admin" has a unique greeting, all others share another greeting.
+  // Eventually will modularize to include additional exercises.
   function main() {
 
     const hd1 = document.createElement('h1');
