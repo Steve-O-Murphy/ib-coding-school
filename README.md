@@ -12,6 +12,7 @@ I haven't done OO for a while, and never in TypeScript so feedback and PRs  woul
 This repo has a package.json file so be sure to install the dependencies. 
 
 The project uses Snowpack as its build tool so create the app:
+
 npx create-snowpack-app . --template @snowpack/app-template-blank-typescript --force
 
 # New Project
