@@ -2,12 +2,8 @@ import { GBUser } from "./ex_30/GBUser";
 import { GBAdmin } from "./ex_30/GBAdmin";
 
   const content = document.querySelector<HTMLDivElement>("#content")!
-  main();
-
-  // Driver function. Given a list of users, creates a greeting for each. A user called "Admin" has a unique greeting, all others share another greeting.
-  // Eventually will modularize to include additional exercises.
-  function main() {
-
+  
+  // Given a list of users, creates a greeting for each. A user called "Admin" has a unique greeting, all others share another greeting.
     const hd1 = document.createElement('h1');
     hd1.append("Exercise 30 - Login Greetings")
     content?.append(hd1);
@@ -23,7 +19,7 @@ import { GBAdmin } from "./ex_30/GBAdmin";
         createGreetingBlock(name, content);
       } 
     )
-  }
+  
   function createGreetingBlock(name:string, content:HTMLDivElement) {
     let gb = null;
     if (name === "Admin") {
