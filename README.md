@@ -2,6 +2,8 @@
 
 This is my implementation of the exercise posted here: https://www.youtube.com/watch?v=bNGzDA9LSAg&list=PL-XnT4KCow_-5IfZRZG5BBVPTEnMiqxIq&index=16. 
 
+I am a complete TypeScript beginner.
+
 ## Project Goal
 
 Given a list of users, the application creates messages for each user. One user name is "Admin" and has a unique message "Would you like to see the status reports?" All other users receive "Thank you for logging in again!" as the message.
