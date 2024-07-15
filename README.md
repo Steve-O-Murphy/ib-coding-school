@@ -1,6 +1,14 @@
 # About
 
-This is my implementation of the exercise posted here: https://www.youtube.com/watch?v=bNGzDA9LSAg&list=PL-XnT4KCow_-5IfZRZG5BBVPTEnMiqxIq&index=16. Instead of creating another console application I decided it would be fun to do a web application that includes some classes to represent users/admins and functionality to create greetings. If you happened upon this application while browsing the web, then I would appreciate your feedback on my implementation of users and admins in:
+This is my implementation of the exercise posted here: https://www.youtube.com/watch?v=bNGzDA9LSAg&list=PL-XnT4KCow_-5IfZRZG5BBVPTEnMiqxIq&index=16. 
+
+## Project Goal
+
+Given a list of users, the application creates messages for each user. One user name is "Admin" and has a unique message "Would you like to see the status reports?" All other users receive "Thank you for logging in again!" as the message.
+
+Instead of creating another console application I decided it would be fun to do a web application that includes some classes to represent users/admins and functionality to create greetings. 
+
+If you happened upon this application while browsing the web, then I would appreciate your feedback on my implementation of users and admins in:
 * GreetingBlockBase.ts
 * GBAdmin.ts
 * GBUser.ts
